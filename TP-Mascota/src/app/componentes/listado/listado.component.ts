@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+// @ts-ignore
 import { Mascota } from 'src/app/clases/mascota/mascota';
 
 @Component({

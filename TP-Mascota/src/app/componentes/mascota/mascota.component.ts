@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Mascota } from 'src/app/clases/mascota/mascota';
+// @ts-ignore
+import { Mascota } from "src/app/clases/mascota/mascota.ts";
 
 @Component({
   selector: 'app-mascota',
